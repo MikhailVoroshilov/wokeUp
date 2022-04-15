@@ -9,7 +9,7 @@ public class Generate {
 
     public static String generateCity(){
         Faker faker = new Faker(new Locale("ru"));
-        return faker.options().option("Москва", "Санкт-Петербург", "Ульяновск", "Тула", "Липецк", "Казань", "Орёл", "Саранск", "Чебоксары", "Краснодар", "Екатеринбург");
+        return faker.options().option("Москва", "Санкт-Петербург", "Ульяновск", "Тула", "Липецк", "Казань", "Орёл", "Саранск", "Чебоксары", "Краснодар", "Екатеринбург", "Улан-Удэ");
     }
 
     public static String generateCityEnglish(){
